@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quilt-casting"
+version = "1.0.0"
+description = "The casting-call plugin: Wilson + LinUCB model router for the Quilt."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "SuperInstance"}]
+
+[tool.setuptools.packages.find]
+where = ["src"]
